@@ -73,10 +73,6 @@ $maxLength = 32;
     }
     
 }
-dump($_POST);
-dump($config);
-dump($formData);
-
 
 // affichage du rendu d'un template
 echo $twig->render('login.html.twig', [
